@@ -14,6 +14,8 @@ Once you have successfully installed and *tested* their program, come back here 
 
 3. Copy the *plugin.py* file and paste it into the *ghidra_scripts* folder. You will find it in the *In Nomine Function* collection inside the Code Browser tool
 
+4. (Optional) If you want to use the receiver.py trial server you have to edit the destination path in the receiver.py script itself. 
+
 ## How to use
 Open a program in Ghidra then launch the plugin.py script (from Ghidra)
 You will be asked where you want to save the .pred file, where is *INF* located, and which trained model you want to use.
