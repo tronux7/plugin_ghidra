@@ -310,9 +310,10 @@ def call_sender():
 		print("[RUNNING]: python3 "+sender_path+" "+hostname+" "+port)
 		p = subprocess.Popen("python3"+" "+sender_path+" "+hostname+" "+port, shell=True, stdout=subprocess.PIPE)
 
-	time.sleep(1)
-	monitor.incrementProgress(1)
-	popup("Binaries and names have been sent to "+hostname)
+		time.sleep(1)
+		monitor.incrementProgress(1)
+		popup("Binaries and names have been sent to "+hostname)
+		
 	return
 
 #MAIN:
