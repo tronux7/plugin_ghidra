@@ -25,7 +25,7 @@ When the execution is finished, you will see that all the functions in the progr
 ### plugin.py
 The script is executed inside Ghidra.
 Retrieves all the functions of the current program and exports them as binary files. These files will be given as input to the *In Nomine Function* program, generating a meaningful prediction of the function names based on what these functions do.
-Generates a config file to save some user interaction time, as well as temporary files and folders that will be deleted at the end of the execution.
+Generates a config file to save some user interaction time, as well as temporary files and folders.
 Eventually adds the predicted names as plate comments in the code listing.
 
 ### filter.py
